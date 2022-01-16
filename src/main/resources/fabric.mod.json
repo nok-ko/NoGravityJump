@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "nogravityjump",
+  "version": "${version}",
+
+  "name": "No Gravity Jump",
+  "description": "Demonstrates a modding technique – tick callbacks. Example given is a 'no gravity jump.'",
+  "authors": [
+    "Nokko"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "Mozilla Public License v2.0",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.nokko.nogravityjump.NoGravityJump"
+    ]
+  },
+  "mixins": [
+    "nogravityjump.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+  }
+}
